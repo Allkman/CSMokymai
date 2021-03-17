@@ -18,11 +18,13 @@ namespace CSMokymai.P14.RandomUzduotys
         {
             Random rand = new Random();
 
-            metimas = rand.Next(1, 5);
+            metimas = rand.Next(1, 7);
 
             while (metimas ==1)
             {
-                rand.Next(1, 5);          
+                rand.Next(1, 5);
+                Console.WriteLine("Meskite dar kartą");
+                Console.ReadKey();
                 
             }
 
@@ -35,5 +37,10 @@ namespace CSMokymai.P14.RandomUzduotys
                 Console.WriteLine("Sveikiname, laimėjote");
             }
         }
+        static void SkaiciuEile()
+        {
+
+        }
+
     }
 }
