@@ -13,6 +13,9 @@ namespace CSMokymai.P14.RandomUzduotys
             Console.WriteLine($"Metimas: {metimas}");
             Console.WriteLine("Press any key to continue");
             Console.ReadKey();
+
+            SkaiciuEile();
+
         }
         static void KauliukoMetimai(out int metimas)
         {
@@ -20,12 +23,11 @@ namespace CSMokymai.P14.RandomUzduotys
 
             metimas = rand.Next(1, 7);
 
-            while (metimas ==1)
+            while (metimas == 1)
             {
-                rand.Next(1, 5);
-                Console.WriteLine("Meskite dar kartą");
-                Console.ReadKey();
-                
+                metimas = rand.Next(1, 7);
+                Console.WriteLine("Išktiro 1, Meskite dar kartą");
+                Console.ReadKey();                
             }
 
             if (metimas >=2 && metimas <=4)
@@ -39,7 +41,7 @@ namespace CSMokymai.P14.RandomUzduotys
         }
         static void SkaiciuEile()
         {
-
+            Random numbers = new Random();
         }
 
     }
