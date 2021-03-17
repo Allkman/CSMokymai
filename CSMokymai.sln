@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSMokymai.P11.Methods", "CS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSMokymai.P12.Collections", "CSMokymai.P12.Collections\CSMokymai.P12.Collections.csproj", "{D7AC7497-1EFD-429D-BB41-C284C42AE215}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSMokymai.P12a.Cycles", "CSMokymai.P12.Cycles\CSMokymai.P12a.Cycles.csproj", "{5BCA6E3C-BCA8-45C4-9222-BA9A64D27247}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSMokymai.P12a.Cycles", "CSMokymai.P12.Cycles\CSMokymai.P12a.Cycles.csproj", "{5BCA6E3C-BCA8-45C4-9222-BA9A64D27247}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSMokymai.P14.RandomUzduotys", "CSMokymai.P14.Random\CSMokymai.P14.RandomUzduotys.csproj", "{B6D04C20-C316-4203-AD42-97102FA76EE6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{5BCA6E3C-BCA8-45C4-9222-BA9A64D27247}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BCA6E3C-BCA8-45C4-9222-BA9A64D27247}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BCA6E3C-BCA8-45C4-9222-BA9A64D27247}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6D04C20-C316-4203-AD42-97102FA76EE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6D04C20-C316-4203-AD42-97102FA76EE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6D04C20-C316-4203-AD42-97102FA76EE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6D04C20-C316-4203-AD42-97102FA76EE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
